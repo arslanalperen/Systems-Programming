@@ -16,48 +16,28 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">repo</h3>
+  <h3 align="center">CS521 - Systems Programming Lesson</h3>
   
 ![Status][ongoing-shield]
 ![Status][completed-shield]
 
   <p align="center">
-    Repo description
+    CS521 - Systems Programming Lesson and LAB works from University of San Frasisco
+  </p>
+  
+  You can access the lesson page from [here](https://www.cs.usfca.edu/~mmalensek/cs521/).
+  <p>
+  <br>
+    <a href="https://github.com/arslanalperen/systems-programming"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://github.com/arslanalperen/repo"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/arslanalperen/repo">View Demo</a>
+    <a href="https://github.com/arslanalperen/systems-programming">View Demo</a>
     ·
-    <a href="https://github.com/arslanalperen/repo/issues">Report Bug</a>
+    <a href="https://github.com/arslanalperen/systems-programming/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arslanalperen/repo/issues">Request Feature</a>
+    <a href="https://github.com/arslanalperen/systems-programming/issues">Request Feature</a>
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#test heading">Heading title</a>
-      <ul>
-        <li><a href="test sub heading">Sub-heading title</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
-```sh
-  test code
-```
-
-## Test
-
-<div align="center"> <img src="test.png"> </div>
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -71,5 +51,3 @@
 [instagram-url]: https://www.instagram.com/arslanalperen55/
 [github-url]: https://github.com/arslanalperen
 [linkedin-url]: https://www.linkedin.com/in/arslanalperen/
-
-[fifo-diagram]: Images/fifo-diagram.png
