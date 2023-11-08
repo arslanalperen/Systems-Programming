@@ -19,7 +19,6 @@
   <h3 align="center">CS521 - Systems Programming Lesson</h3>
   
 ![Status][ongoing-shield]
-![Status][completed-shield]
 
   <p align="center">
     CS521 - Systems Programming Lesson and LAB works from University of San Frasisco
