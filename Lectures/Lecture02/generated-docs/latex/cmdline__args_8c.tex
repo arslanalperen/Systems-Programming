@@ -1,0 +1,91 @@
+\hypertarget{cmdline__args_8c}{}\doxysection{cmdline\+\_\+args.\+c File Reference}
+\label{cmdline__args_8c}\index{cmdline\_args.c@{cmdline\_args.c}}
+
+
+Viewing command line arguments.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Include dependency graph for cmdline\+\_\+args.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{cmdline__args_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{cmdline__args_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Kernel entry point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Viewing command line arguments. 
+
+\begin{DoxyDate}{Date}
+2021-\/10-\/03 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Alperen Arslan (arslanalperen) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]No known bugs.\end{DoxyRefDesc}
+
+
+Input\+: Command line arguments
+
+Output\+: Command line arguments
+
+Compile\+: Using Linux and gcc
+
+gcc -\/g -\/Wall \mbox{\hyperlink{cmdline__args_8c}{cmdline\+\_\+args.\+c}} -\/o cmdline\+\_\+args
+
+Run\+: ./cmdline\+\_\+args arg1 arg2 arg3 ...
+
+Notes\+: -\/g flag enables debugging information. -\/Wall enables all warnings. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{cmdline__args_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{cmdline__args_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{cmdline\_args.c@{cmdline\_args.c}!main@{main}}
+\index{main@{main}!cmdline\_args.c@{cmdline\_args.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Kernel entry point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of command line arguments \\
+\hline
+{\em argv} & Array of command line arguments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Exit status 
+\end{DoxyReturn}
+Loop through the command line arguments, printing each one on a seperate line.
+
+Returning an exit code other than 0. We can use EXIT\+\_\+\+FAILURE to indicate a problem, or provide our own exit code. To view the exit code, use\+: echo \$? In your shell.
+
+Definition at line 35 of file cmdline\+\_\+args.\+c.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{35                                  \{}
+\DoxyCodeLine{39     \textcolor{keywordtype}{int} i;}
+\DoxyCodeLine{40     \textcolor{keywordflow}{for} (i = 0; i < argc; ++i) \{}
+\DoxyCodeLine{41         printf(\textcolor{stringliteral}{"{}[\%s]\(\backslash\)n"{}}, argv[i]);}
+\DoxyCodeLine{42     \}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{51     \textcolor{keywordflow}{return} 3;}
+\DoxyCodeLine{52 \}}
+
+\end{DoxyCode}

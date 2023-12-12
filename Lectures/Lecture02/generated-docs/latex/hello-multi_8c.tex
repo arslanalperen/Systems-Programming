@@ -1,0 +1,137 @@
+\hypertarget{hello-multi_8c}{}\doxysection{hello-\/multi.c File Reference}
+\label{hello-multi_8c}\index{hello-\/multi.c@{hello-\/multi.c}}
+
+
+Greets the world (multiple times).  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Include dependency graph for hello-\/multi.c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{hello-multi_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{hello-multi_8c_a7fab4db047a98c7b0d74499ce170eb7d}{say\+\_\+hello}} (int time)
+\begin{DoxyCompactList}\small\item\em Prints \textquotesingle{}Hello, World!\textquotesingle{} to the screen a given number of times. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{hello-multi_8c_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Kernel entry point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Greets the world (multiple times). 
+
+\begin{DoxyDate}{Date}
+2021-\/10-\/03 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Alperen Arslan (arslanalperen) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000002}{Bug}}]No known bugs.\end{DoxyRefDesc}
+
+
+Input\+: None
+
+Output\+: Several copies of \textquotesingle{}Hello World\textquotesingle{}
+
+Compile\+: Using Linux and gcc
+
+gcc -\/g -\/Wall \mbox{\hyperlink{hello-multi_8c}{hello-\/multi.\+c}} -\/o hello-\/multi
+
+Run\+: ./hello-\/multi
+
+Notes\+: -\/g flag enables debugging information. -\/Wall enables all warnings. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{hello-multi_8c_a0ddf1224851353fc92bfbff6f499fa97}\label{hello-multi_8c_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{hello-\/multi.c@{hello-\/multi.c}!main@{main}}
+\index{main@{main}!hello-\/multi.c@{hello-\/multi.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Kernel entry point. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of command line arguments \\
+\hline
+{\em argv} & Array of command line arguments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Exit status 
+\end{DoxyReturn}
+
+
+Definition at line 41 of file hello-\/multi.\+c.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                                  \{}
+\DoxyCodeLine{42     \mbox{\hyperlink{hello-multi_8c_a7fab4db047a98c7b0d74499ce170eb7d}{say\_hello}}(6);}
+\DoxyCodeLine{43     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{44 \}}
+
+\end{DoxyCode}
+
+
+References say\+\_\+hello().
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{hello-multi_8c_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{hello-multi_8c_a7fab4db047a98c7b0d74499ce170eb7d}\label{hello-multi_8c_a7fab4db047a98c7b0d74499ce170eb7d}} 
+\index{hello-\/multi.c@{hello-\/multi.c}!say\_hello@{say\_hello}}
+\index{say\_hello@{say\_hello}!hello-\/multi.c@{hello-\/multi.c}}
+\doxysubsubsection{\texorpdfstring{say\_hello()}{say\_hello()}}
+{\footnotesize\ttfamily void say\+\_\+hello (\begin{DoxyParamCaption}\item[{int}]{time }\end{DoxyParamCaption})}
+
+
+
+Prints \textquotesingle{}Hello, World!\textquotesingle{} to the screen a given number of times. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em time} & Number of times to print \textquotesingle{}Hello, World!\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 46 of file hello-\/multi.\+c.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{46                           \{}
+\DoxyCodeLine{47     \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 1; i <= times; ++i)}
+\DoxyCodeLine{48         printf(\textcolor{stringliteral}{"{}Hello, World! (\#\%d)\(\backslash\)n"{}}, i);}
+\DoxyCodeLine{49 \}}
+
+\end{DoxyCode}
+
+
+Referenced by main().
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{hello-multi_8c_a7fab4db047a98c7b0d74499ce170eb7d_icgraph}
+\end{center}
+\end{figure}

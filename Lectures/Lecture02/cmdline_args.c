@@ -2,16 +2,18 @@
  * @file cmdline_args.c
  * 
  * @date 2021-10-03
- * @author arslanalperen
+ * @author Alperen Arslan (arslanalperen)
  * @version 1.0
  * @bug No known bugs.
  * 
  * @brief Viewing command line arguments.
  * 
  * Input: Command line arguments
+ * 
  * Output: Command line arguments
  * 
  * Compile: Using Linux and gcc
+ * 
  * gcc -g -Wall cmdline_args.c -o cmdline_args
  * 
  * Run: ./cmdline_args arg1 arg2 arg3 ...

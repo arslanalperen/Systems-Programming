@@ -11,13 +11,19 @@
  * Known as "the first C program," from K&R. Greets the world.
  * 
  * Input: None
+ * 
  * Output: "Hello, World!"
  * 
  * Compile: Using Linux and gcc
+ * 
  * gcc -E hello.c > hello.pre (Only perform the preproccesing step)
+ * 
  * gcc -S hello.c (Only perform the assembly step)
+ * 
  * gcc -c hello.c (Only perform the compilation step)
+ * 
  * hexdump -C hello.o (View the object file)
+ * 
  * gcc -g -Wall hello.c -o hello (Perform all steps)
  * 
  * Run: ./hello

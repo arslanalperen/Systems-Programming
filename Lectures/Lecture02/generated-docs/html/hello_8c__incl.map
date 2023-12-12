@@ -1,0 +1,4 @@
+<map id="hello.c" name="hello.c">
+<area shape="rect" id="node1" title="Greets the world." alt="" coords="6,5,66,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,67,107"/>
+</map>

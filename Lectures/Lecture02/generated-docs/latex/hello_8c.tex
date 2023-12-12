@@ -1,0 +1,87 @@
+\hypertarget{hello_8c}{}\doxysection{hello.\+c File Reference}
+\label{hello_8c}\index{hello.c@{hello.c}}
+
+
+Greets the world.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+Include dependency graph for hello.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=126pt]{hello_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{hello_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em Kernel entry point. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Greets the world. 
+
+\begin{DoxyDate}{Date}
+2021-\/10-\/03 
+\end{DoxyDate}
+\begin{DoxyAuthor}{Author}
+Alperen Arslan (arslanalperen) 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000003}{Bug}}]No known bugs.\end{DoxyRefDesc}
+
+
+Known as \char`\"{}the first C program,\char`\"{} from K\&R. Greets the world.
+
+Input\+: None
+
+Output\+: \char`\"{}\+Hello, World!\char`\"{}
+
+Compile\+: Using Linux and gcc
+
+gcc -\/E \mbox{\hyperlink{hello_8c}{hello.\+c}} $>$ hello.\+pre (Only perform the preproccesing step)
+
+gcc -\/S \mbox{\hyperlink{hello_8c}{hello.\+c}} (Only perform the assembly step)
+
+gcc -\/c \mbox{\hyperlink{hello_8c}{hello.\+c}} (Only perform the compilation step)
+
+hexdump -\/C hello.\+o (View the object file)
+
+gcc -\/g -\/Wall \mbox{\hyperlink{hello_8c}{hello.\+c}} -\/o hello (Perform all steps)
+
+Run\+: ./hello
+
+Notes\+: -\/g flag enables debugging information. -\/Wall enables all warnings. 
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{hello_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{hello_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{hello.c@{hello.c}!main@{main}}
+\index{main@{main}!hello.c@{hello.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Kernel entry point. 
+
+\begin{DoxyReturn}{Returns}
+int Exit status 
+\end{DoxyReturn}
+
+
+Definition at line 41 of file hello.\+c.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{41                \{}
+\DoxyCodeLine{42     printf(\textcolor{stringliteral}{"{}Hello, World!\(\backslash\)n"{}});}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{45 \}}
+
+\end{DoxyCode}

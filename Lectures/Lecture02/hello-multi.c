@@ -9,9 +9,11 @@
  * @brief Greets the world (multiple times).
  * 
  * Input: None
+ * 
  * Output: Several copies of 'Hello World'
  * 
  * Compile: Using Linux and gcc
+ * 
  * gcc -g -Wall hello-multi.c -o hello-multi
  * 
  * Run: ./hello-multi
