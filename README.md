@@ -47,6 +47,6 @@
 [ongoing-shield]: https://badgen.net/static/status/on%20going/red
 [completed-shield]: https://badgen.net/static/status/completed/green
 
-[instagram-url]: https://www.instagram.com/arslanalperen55/
+[instagram-url]: https://www.instagram.com/arslanalprn/
 [github-url]: https://github.com/arslanalperen
 [linkedin-url]: https://www.linkedin.com/in/arslanalperen/
